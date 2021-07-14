@@ -1,0 +1,47 @@
+/* ---------------------------
+        Styles or utilities
+----------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------
+         PLayers styles
+---------------------------- */
+.top-side{
+    display: flex;
+    background-color:  navy;
+    height: 520px;
+}
+.header img{
+    width: 480px;
+    height: 410px;
+}
+.heading{
+    color: #ffffff;
+   font-size: 30px;
+   padding-top: 150px;
+}
+    
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+    margin-top: 30px;
+}
+.container{
+    padding-left: 180px;
+    padding-right: 210px;
+}
+.player img{
+    width: 270px;
+    height: 240px;
+    border-left: 5px;
+}
+.player{
+   padding: 10px;
+   margin: 15px;
+   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+
+}
